@@ -1,0 +1,11 @@
+#忽略eclipse生成的3个文件和文件夹
+.settings
+.buildpath
+.project
+
+#忽略CI中的文件和目录
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
